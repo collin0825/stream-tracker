@@ -35,25 +35,25 @@
                 </div>
                 <ul class="nav">
                     <li>
-                        <a class="nav-link" href="index.html">
+                        <a class="nav-link" href="/index.php">
                             <i class="nc-icon nc-icon nc-paper-2"></i>
                             <p>First picture</p>
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="second.html">
+                        <a class="nav-link" href="/second.php">
                             <i class="nc-icon nc-bell-55"></i>
                             <p>Second picture</p>
                         </a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="third.html">
+                        <a class="nav-link" href="/third.php">
                             <i class="nc-icon nc-bell-55"></i>
                             <p>Third picture</p>
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="fourth.html">
+                        <a class="nav-link" href="/fourth.php">
                             <i class="nc-icon nc-bell-55"></i>
                             <p>Fourth picture</p>
                         </a>
