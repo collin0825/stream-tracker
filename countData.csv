@@ -1,0 +1,81 @@
+﻿name,code,count,platform
+United States,USA,1040,d
+China,CHN,7,d
+France,FRA,14,d
+Germany,DEU,7,d
+India,IND,5,d
+Austria,AUT,1,d
+United Kingdom,GBR,46,d
+Australia,AUS,14,d
+Switzerland,CHE,1,d
+Belgium,BEL,1,d
+Mexico,MEX,3,d
+Canada,CAN,46,d
+Japan,JPN,4,d
+Hungary,HUN,1,d
+Ireland,IRL,1,d
+South Africa,ZAF,3,d
+Hong Kong,HKG,1,d
+United States,USA,1496,n
+China,CHN,57,n
+France,FRA,20,n
+Germany,DEU,105,n
+Spain,ESP,136,n
+India,IND,575,n
+Italy,ITA,61,n
+United Arab Emirates,ARE,19,n
+Jordan,JOR,4,n
+Qatar,QAT,12,n
+Argentina,ARG,54,n
+Chile,CHL,17,n
+Colombia,COL,20,n
+Uruguay,URY,7,n
+Austria,AUT,10,n
+United Kingdom,GBR,256,n
+Australia,AUS,41,n
+Switzerland,CHE,13,n
+Belgium,BEL,37,n
+Denmark,DNK,19,n
+Senegal,SEN,1,n
+Lithuania,"	LTU",2,n
+Netherlands,NLD,33,n
+Sweden,SWE,17,n
+Bulgaria,BGR,9,n
+Brazil,BRA,62,n
+Mexico,MEX,81,n
+Poland,POL,32,n
+Bhutan,BTN,1,n
+Canada,CAN,157,n
+Japan,JPN,117,n
+Hungary,HUN,6,n
+Ireland,IRL,13,n
+Korea,KOR,49,n
+Sri Lanka,LKA,1,n
+Nigeria,NGA,67,n
+South Africa,ZAF,37,n
+Peru,PER,11,n
+Taiwan,TWN,22,n
+Hong Kong,HKG,32,n
+Czech,CZE,10,n
+Egypt,EGY,43,n
+Ghana,GHA,4,n
+Saudi Arabia,SAU,7,n
+Portugal,PRT,3,n
+Norway,NOR,14,n
+Finland,FIN,3,n
+Kuwait,KWT,5,n
+Cambodia,KHM,3,n
+Luxembourg,LUX,5,n
+Iran,IRN,2,n
+Malaysia,MYS,15,n
+Singapore,SGP,11,n
+Israel,ISR,7,n
+Greece,GRC,3,n
+Georgia,GEO,2,n
+Syrian Arab Republic,SYR,2,n
+Tanzania,TZA,4,n
+Pakistan,PAK,3,n
+Thailand,THA,14,n
+Viet Nam,VNM,3,n
+Venezuela,VEN,1,n
+Ukraine,UKR,4,n
