@@ -2,11 +2,12 @@
 <html lang="en">
 
 <head>
+    
     <meta charset="utf-8" />
-    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
-    <link rel="icon" type="image/png" href="../assets/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/icon.png">
+    <link rel="icon" type="image/png" href="assets/img/icon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>test</title>
+    <title>stream_tracker</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
@@ -19,9 +20,9 @@
     <script src="https://d3js.org/d3.v6.js"></script>
 </head>
 
-<body>
+<body style="background-color: burlywood;">
     <div class="wrapper">
-        <div class="sidebar" data-image="../assets/img/sidebar-5.jpg">
+        <div class="sidebar" data-image="assets/img/sidebar-4.jpg" data-color="blue">
             <!--
         Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
 
@@ -29,152 +30,155 @@
     -->
             <div class="sidebar-wrapper">
                 <div class="logo">
-                    <a href="javascript:;" class="simple-text">
-                      Your Logo
-                    </a>
+                    <div class="simple-text" style="font-size: 25px; font-weight: 700; font-family: cursive; font-style: italic; color: gold;">
+                        Stream Tracker
+                    </div>
                 </div>
                 <ul class="nav">
-                    <li class="nav-item active">
+                    <li>
                         <a class="nav-link" href="index.php">
-                            <i class="nc-icon nc-icon nc-paper-2"></i>
-                            <p>First picture</p>
+                            <i class="nc-icon nc-icon nc-bulb-63"></i>
+                            <p>Relation</p>
                         </a>
                     </li>
                     <li>
                         <a class="nav-link" href="second.php">
-                            <i class="nc-icon nc-bell-55"></i>
-                            <p>Second picture</p>
+                            <i class="nc-icon nc-bullet-list-67"></i>
+                            <p>Ranking Relation</p>
                         </a>
                     </li>
                     <li>
                         <a class="nav-link" href="third.php">
-                            <i class="nc-icon nc-bell-55"></i>
-                            <p>Third picture</p>
+                            <i class="nc-icon nc-map-big"></i>
+                            <p>Movie Distribution</p>
                         </a>
                     </li>
-                    <li>
+                    <li class="nav-item active">
                         <a class="nav-link" href="fourth.php">
-                            <i class="nc-icon nc-bell-55"></i>
-                            <p>Fourth picture</p>
+                            <i class="nc-icon nc-chart-bar-32"></i>
+                            <p>Score Distribution</p>
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="main-panel">
-            <!-- Navbar -->
-            <!-- <nav class="navbar navbar-expand-lg " color-on-scroll="500">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#pablo">Template</a>
-                    <button href="" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-bar burger-lines"></span>
-                        <span class="navbar-toggler-bar burger-lines"></span>
-                        <span class="navbar-toggler-bar burger-lines"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navigation">
-                        <ul class="nav navbar-nav mr-auto">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link" data-toggle="dropdown">
-                                    <i class="nc-icon nc-palette"></i>
-                                    <span class="d-lg-none">Dashboard</span>
-                                </a>
-                            </li>
-                            <li class="dropdown nav-item">
-                                <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-                                    <i class="nc-icon nc-planet"></i>
-                                    <span class="notification">5</span>
-                                    <span class="d-lg-none">Notification</span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Notification 1</a>
-                                    <a class="dropdown-item" href="#">Notification 2</a>
-                                    <a class="dropdown-item" href="#">Notification 3</a>
-                                    <a class="dropdown-item" href="#">Notification 4</a>
-                                    <a class="dropdown-item" href="#">Another notification</a>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <i class="nc-icon nc-zoom-split"></i>
-                                    <span class="d-lg-block">&nbsp;Search</span>
-                                </a>
-                            </li>
-                        </ul>
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#pablo">
-                                    <span class="no-icon">Account</span>
-                                </a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <span class="no-icon">Dropdown</span>
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                    <div class="divider"></div>
-                                    <a class="dropdown-item" href="#">Separated link</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#pablo">
-                                    <span class="no-icon">Log out</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav> -->
-            <!-- End Navbar -->
             <div class="content">
                 <div class="container-fluid">
                     <div class="section">
+                        <div style="font-size: 20px; font-weight: bold;">The score distribution on each platform</div>
+                        <!-- Add 2 buttons -->
+                        <button type="button" class="btn btn-outline-success" style="border-color: #28a745; color: #28a745;"onclick="update('imdb_score')">IMDB_Score</button>
+                        <button type="button" class="btn btn-outline-info"  style="border-color: #17a2b8; color: #17a2b8;"onclick="update('tmdb_score')">TMDB_Score</button> 
+                        <!-- Create a div where the graph will take place -->
+                        <div id="my_dataviz"></div> 
                     </div>
                 </div>
             </div>
-            <!-- <footer class="footer">
-                <div class="container-fluid">
-                    <nav>
-                        <ul class="footer-menu">
-                            <li>
-                                <a href="#">
-                                    Home
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Company
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Portfolio
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Blog
-                                </a>
-                            </li>
-                        </ul>
-                        <p class="copyright text-center">
-                            ©
-                            <script>
-                                document.write(new Date().getFullYear())
-                            </script>
-                            <a href="http://www.creative-tim.com">Creative Tim</a>, made with love for a better web
-                        </p>
-                    </nav>
-                </div>
-            </footer> -->
         </div>
     </div>
    
 </body>
+<script>
+    // set the dimensions and margins of the graph
+    const margin = {top: 10, right: 30, bottom: 20, left: 40},
+        width = 500 - margin.left - margin.right,
+        height = 440 - margin.top - margin.bottom;
+    
+    // append the svg object to the body of the page
+    const svg = d3.select("#my_dataviz")
+      .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+        .attr("transform",
+              `translate(${margin.left},${margin.top})`);
+    
+    // X axis: scale and draw:
+    const x = d3.scaleLinear()
+    .domain([0,10])     // can use this instead of 1000 to have the max of data: d3.max(data, function(d) { return +d.price })
+    .range([0, width]);
+
+        // Y axis: scale and draw:
+      const y = d3.scaleLinear()
+      .range([height, 0]);
+      y.domain([0, 2000]);   // d3.hist has to be called before the Y axis obviously
+  svg.append("g")
+      .call(d3.axisLeft(y));
+
+    
+     // A function that create / update the plot for a given variable:
+    function update(selectedplatform) {
+      d3.csv("data.csv").then( function(data) {
+    
+
+    svg.append("g")
+        .attr("transform", `translate(0, ${height})`)
+        .call(d3.axisBottom(x));
+    
+    // set the parameters for the histogram
+    const histogram = d3.histogram()
+        .value(function(d) { return +d[selectedplatform];})   // I need to give the vector of value
+        .domain(x.domain())  // then the domain of the graphic
+        .thresholds(x.ticks(10)); // then the numbers of bins
+  
+    // And apply twice this function to data to get the bins.
+    const bins1 = histogram(data.filter( function(d){return d.platform === 'd';}));
+    const bins2 = histogram(data.filter( function(d){return d.platform === 'n';}));
+
+
+  svg.selectAll("rect")
+      .data(bins1)
+      .join("rect")
+      .transition()
+      .duration(1000)
+        .attr("x", 1)
+        .attr("transform", function(d) { return `translate(${x(d.x0)} , ${y(d.length)})`})
+        .attr("width", function(d) { return x(d.x1) - x(d.x0) -1; })
+        .attr("height", function(d) { return height - y(d.length); })
+        .style("fill", "#69b3a2")
+        .style("opacity", 0.6)
+        
+
+  // append the bars for series 2
+  svg.selectAll("rect2")
+      .data(bins2)
+      .enter()
+      .append("rect")
+      .transition()
+      .duration(1000)
+        .attr("x", 1)
+        .attr("transform", function(d) { return `translate(${x(d.x0)}, ${y(d.length)})`})
+        .attr("width", function(d) { return x(d.x1) - x(d.x0) -1 ; })
+        .attr("height", function(d) { return height - y(d.length); })
+        .style("fill", "#404080")
+        .style("opacity", 0.6)
+
+        // Handmade legend
+        svg.append("circle").attr("cx",350).attr("cy",30).attr("r", 6).style("fill", "#69b3a2")
+        svg.append("circle").attr("cx",350).attr("cy",60).attr("r", 6).style("fill", "#404080")
+        svg.append("text").attr("x", 370).attr("y", 30).text("Disney+").style("font-size", "15px").attr("alignment-baseline","middle")
+        svg.append("text").attr("x", 370).attr("y", 60).text("Netflix").style("font-size", "15px").attr("alignment-baseline","middle")
+      }
+    )};
+    // Initialize plot
+    update('imdb_score');
+</script>
 <!--   Core JS Files   -->
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v6.js"></script>
+
+<!-- Add 2 buttons -->
+<button onclick="update('imdb_score')">imdb_score</button>
+<button onclick="update('tmdb_score')">tmdb_score</button> 
+
+<!-- Create a div where the graph will take place -->
+<div id="my_dataviz"></div>
+
+
 <script src="assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
 <script src="assets/js/core/popper.min.js" type="text/javascript"></script>
 <script src="assets/js/core/bootstrap.min.js" type="text/javascript"></script>
@@ -190,4 +194,5 @@
 <script src="assets/js/light-bootstrap-dashboard.js?v=2.0.0 " type="text/javascript"></script>
 <!-- Light Bootstrap Dashboard DEMO methods, don't include it in your project! -->
 <script src="assets/js/demo.js"></script>
+
 </html>

@@ -99,9 +99,9 @@
     </style>
 </head>
 
-<body>
-    <div class="wrapper">
-        <div class="sidebar" data-image="assets/img/sidebar-5.jpg">
+<body style="background-color: burlywood;">
+    <div>
+        <div class="sidebar" data-image="assets/img/sidebar-4.jpg" data-color="blue">
             <!--
         Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
 
@@ -109,33 +109,33 @@
     -->
             <div class="sidebar-wrapper">
                 <div class="logo">
-                    <a href="javascript:;" class="simple-text">
+                    <div class="simple-text" style="font-size: 25px; font-weight: 700; font-family: cursive; font-style: italic; color: gold;">
                         Stream Tracker
-                    </a>
+                    </div>
                 </div>
                 <ul class="nav">
                     <li>
                         <a class="nav-link" href="index.php">
-                            <i class="nc-icon nc-icon nc-paper-2"></i>
-                            <p>First picture</p>
+                            <i class="nc-icon nc-icon nc-bulb-63"></i>
+                            <p>Relation</p>
                         </a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="second.php">
-                            <i class="nc-icon nc-bell-55"></i>
-                            <p>Second picture</p>
+                            <i class="nc-icon nc-bullet-list-67"></i>
+                            <p>Ranking Relation</p>
                         </a>
                     </li>
                     <li>
                         <a class="nav-link" href="third.php">
-                            <i class="nc-icon nc-bell-55"></i>
-                            <p>Third picture</p>
+                            <i class="nc-icon nc-map-big"></i>
+                            <p>Movie Distribution</p>
                         </a>
                     </li>
                     <li>
                         <a class="nav-link" href="fourth.php">
-                            <i class="nc-icon nc-bell-55"></i>
-                            <p>Fourth picture</p>
+                            <i class="nc-icon nc-chart-bar-32"></i>
+                            <p>Score Distribution</p>
                         </a>
                     </li>
                 </ul>
