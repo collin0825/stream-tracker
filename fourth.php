@@ -82,29 +82,45 @@
 <script>
     // set the dimensions and margins of the graph
     const margin = {top: 10, right: 30, bottom: 20, left: 40},
-        width = 500 - margin.left - margin.right,
-        height = 440 - margin.top - margin.bottom;
+        width = 460 - margin.left - margin.right,
+        height = 400 - margin.top - margin.bottom;
     
     // append the svg object to the body of the page
     const svg = d3.select("#my_dataviz")
       .append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
+        .attr("width", width + margin.left + margin.right + 100)
+        .attr("height", height + margin.top + margin.bottom +100)
       .append("g")
         .attr("transform",
-              `translate(${margin.left},${margin.top})`);
+              `translate(${margin.left+60},${margin.top})`);
     
     // X axis: scale and draw:
     const x = d3.scaleLinear()
     .domain([0,10])     // can use this instead of 1000 to have the max of data: d3.max(data, function(d) { return +d.price })
-    .range([0, width]);
+    .range([0, width])
+    svg.append("g")
+      .append('text')
+      .attr("y", height + 50)
+      .attr("x", width - 160)
+      .attr("text-anchor", "end")
+      .attr("fill", "black")
+      .attr("font-size", "16px")
+      .text("Score");
+    
 
         // Y axis: scale and draw:
       const y = d3.scaleLinear()
       .range([height, 0]);
       y.domain([0, 2000]);   // d3.hist has to be called before the Y axis obviously
   svg.append("g")
-      .call(d3.axisLeft(y));
+      .call(d3.axisLeft(y))
+      .append('text')
+      .attr("y", height - 185)
+      .attr("x", width - 435)
+      .attr("text-anchor", "end")
+      .attr("fill", "black")
+      .attr("font-size", "16px")
+      .text("number");
 
     
      // A function that create / update the plot for a given variable:
